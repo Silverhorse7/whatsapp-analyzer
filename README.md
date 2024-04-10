@@ -2,6 +2,14 @@
 
 This is a simple python backend service that analyzes your whatsapp chat history and gives you some insights about your chat history.
 
+> The script is still under development and more insights will be added soon. I would say this is just a prototype.
+
+## Visualization Insights and charts Snapshot:
+
+<!-- snapshot.png -->
+![Snapshot](snapshot.png)
+
+
 ## Insights provided:
 
 1. Total number of words sent by each person.
