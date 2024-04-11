@@ -31,7 +31,7 @@ class Analyzer:
         for i in range(0, len(lines)):
             line = lines[i]
 
-            if len(line) == 0 or line[0] != '[':
+            if len(line) == 0 or line[0] != '[' or line.count(',') < 1:
                 continue
 
             date_time = line.split(',')[0].split('[')[1]

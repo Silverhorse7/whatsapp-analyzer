@@ -25,12 +25,19 @@ This is a simple python backend service that analyzes your whatsapp chat history
 5. Choose 'Without media'.
 6. Share the chat with the script.
 
-## How to run:
+## How to run (No Docker):
 
 1. Clone the repository.
 2. Run `pip install -r requirements.txt` to install the required packages.
 3. Run the script using `python main.py`.
 4. Open the generated report from the local-server url provided and enjoy the insights.
+
+## How to run with Docker:
+
+1. Build the Docker image by running: `docker build -t whatsapp-analyzer .`
+2. Run the Docker container with: `docker run -p 8080:8080 whatsapp-analyzer`
+
+This will start your application and map the application's port 8080 to port 8080 on your host machine (Ex: http://192.168.1.7:8080/).
 
 ## Future work:
 
